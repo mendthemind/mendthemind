@@ -1,0 +1,18 @@
+---
+layout: stories
+title: "Susan"
+---
+
+Apr 5 2013
+
+It was the Fall of 2007 when I finally came to terms with the fact that I live with depression.  I was experiencing yet another debilitating episode, but managed to get out of bed and go to Brock to see Margaret Trudeau speak.  She talked about her challenges with depression, with hiding her illness for so many years, and of her recovery.  For some reason, her words made it through to my foggy brain and this time when I went to my doctor, I knew that it was time to make some changes.
+
+For more than twenty years I had ridden the roller coaster of depression: the low lows, the trip to the doctor’s office, the medication, the belief that I was ‘well’ and no longer needed anti-depressants (stopping sometimes with and sometimes without my doctor’s knowledge), the inevitable downward spiral into another devastating episode.  When I was at my worst, I lost interest in everything that brought me joy – my sons, my work, my friend.  I became panicked at even the thought of having to meet with people at work or socially – my heart would race, I gasped for air, I sweat as if I had run a marathon.  Like my survival depended upon it, I would bolt from wherever I was.   I would take to my bed.  I told everyone that my Crohn’s disease was in flare-up, so much easier than admitting to myself or others that I was dealing with a mental illness.
+
+Why was Margaret Trudeau’s speech my turning point?  Friends who knew me well had approached me in the past when I became like a zombie.  They tried to help, but I dismissed them, often in anger.  But with each concerned inquiry, perhaps I came that much closer to this moment of epiphany.  Depression wasn’t a temporary state for me, it was part of my life.  I started to research depression.  I realized that I only had so much energy to go around, and that I wanted to spend it on the things that were important to me.  I took an inventory of my strengths – and my weaknesses – and was fortunate enough to have a supervisor at work who supported the redesign of my job that focused on these positives.  I started to step back from a need for perfection at home.  Sometimes, it was okay to name the dust bunnies rather than worry about them.  I reached out to my friends for support.
+
+And I did something else that I decided was important:  I started to tell people that I lived with a mental illness.  I began to speak about my challenges, and my recovery.  Instead of the negative response that I had feared for so many years, I received words of encouragement, and many, many stories of family, friends, neighbours and colleagues who also lived with a mental illness.  The conversations were heartbreaking, inspiring, and freeing .  Sometimes people would say to me that I didn’t look like a depressed person; I told them I was a happy person, with a depressive disorder.
+
+I live with depression.  It doesn’t define me, but it is part of who I am.  I will always be challenged and I need to be vigilant about the blackness that sits just outside my peripheral vision, waiting for me to deny it so it can sneak back in.  There are always life issues to deal with and sometimes life is not easy.  But, I know that recovery is possible and life is good.  I hope that my story will help others to understand that mental illness isn’t something to hide and be ashamed of, but an illness no different from any other physical ailment.  I hope that others will open the dialogue about mental illness.  Shatter the Stigma, Mend the Mind.
+
+**Susan is a 47 year old mother, friend, colleague, neighbour, volunteer who also lives with depression.**

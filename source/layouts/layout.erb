@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Shatter The Stigma Mend The Mind" %></title>
+
+    <!-- Disable automatic detection and formatting of possible phone numbers -->
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.3/css/tachyons.min.css"/>
+
+    <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag :all %>
+    <%= favicon_tag 'images/favicon.ico' %>
+
+  </head>
+
+  <body class="<%= page_classes %> bg-white black-70 sans-serif">
+    <%= partial '/_partials/banner' %>
+    <%= yield %>
+    <%= partial '/_partials/footer' %>
+  </body>
+</html>

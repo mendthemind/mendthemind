@@ -1,0 +1,31 @@
+<div style="background: url(/images/background.jpg) center bottom repeat-x;" class="tc" >
+
+  <div class="dib mt1 w-100">
+    <div>
+      <a href="/">
+        <%= image_tag "logo.png", :alt => 'Shatter the Stigma Mend The Mind'  %>
+      </a>
+    </div>
+
+      <nav class="dib mt3">
+        <ul class="list pa0 bg-purple white shadow-3 ttu fw5 f3 ma0">
+          <li class="dib ma0"><a href="/#campaign" class="no-underline near-white pa2 pr3 pl3 dib">Campaign</a></li>
+          <li class="dib ma0"><a href="/#assets" class="no-underline near-white pa2 pr3 pl3 dib">Assets</a></li>
+          <li class="dib ma0"><a href="/#supporters" class="no-underline near-white pa2 pr3 pl3 dib">Supporters</a></li>
+        </ul>
+      </nav>
+  </div>
+
+  <% if current_page.data.front %>
+    <div class="tc relative w-100 mw8 mb4 mt4 dib">
+      <div id="carousel">
+        <%= image_tag "carousel1.png", :class => 'slide' %>
+        <%= image_tag "carousel2.png", :class => 'slide' %>
+        <%= image_tag "carousel3.png", :class => 'slide' %>
+        <%= image_tag "carousel4.png", :class => 'placeholder' %>
+        <%= image_tag "1-in-5.png", :class => 'bottom-1 right-1 absolute mw4 mw4-ns mw4-m mw7-l mw6-l mr3 mb3 mb3-m mb4-l', :alt => '1 in 5 Canadians suffer from mental illness' %>
+      </div>
+    </div>
+  <% end %>
+
+</div>

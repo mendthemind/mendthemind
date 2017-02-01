@@ -1,0 +1,109 @@
+---
+title: Shatter the Stigma Mend the Mind
+front: true
+---
+
+<article class="cf ph3 pv5 mtm-width">
+
+  <header class="fn fl-l w-40-l pr4-l">
+    <a name="campaign"></a>
+    <h1 class="f2 lh-title fw9 mb3 mt0 measure-narrow">
+      Shatter The Stigma<br/>Mend The Mind
+    </h1>
+    <h2 class="f3 mid-gray lh-title measure-narrow">
+      A summary of Niagara's mental health anti-stigma campaign.
+    </h2>
+  </header>
+  <div class="fn fl-ns w-60-l">
+    <p class="f4-m f3-l lh-copy mt0-ns measure-wide"><a href="https://www.pathstonementalhealth.ca" target="_blank">Pathstone Mental Health</a>, as the only accredited primary provider of children’s mental health, recognized and then committed to ending the devastation stigma has for those with mental health challenges. It is well known that individuals who experience mental illness often face stigma in their daily lives. Stigma marks someone as different from others; some people with mental health issues feel disenfranchised and marginalized.
+    </p>
+    <p class="f4-m f3-l lh-copy measure-wide">Compounding this is the difficulty that many, who suffer from mental health challenges, have to admit that they need help, especially when there is so much stigma surrounding mental illness. For many stigma is the reason that many people do not seek the help and support that would be beneficial. While feeling sad, stressed, or worried is a regular part of life, these same emotions could be symptoms of a mental illness or mental health problem, depending on the severity and duration.
+    </p>
+    <p class="f4-m f3-l lh-copy measure-wide">To address this Pathstone championed the effort to eliminate stigma. Pathstone reached out to a host of <a href="#supporters">service providers and professionals</a> that deliver services to children, youth, and families – many who have mental health issues. Recent studies have found that 84% of people are impacted by either a family member or friend with mental health issues. These dedicated professionals agreed to form a committee and to carry the banner of eliminating stigma. This group orchestrated numerous mental health fairs and educational events (including <a href="#assets">videos and artwork</a>), completed by students from both boards of education. They also jointly provided interviews to newspapers and to news shows.
+    </p>
+    <p class="f4-m f3-l lh-copy measure-wide">In the past 7 years Niagara’s efforts have yielded very positive results. Locally we have also benefited from Provincial and National efforts of both the government and private sector. Although Stigma continues we are ending our direct efforts and focus on Shattering Stigma because of the gains we as a community have generated.
+    <p class="f4-m f3-l lh-copy measure-wide">Having a mental illness is nothing to be ashamed of. <b>1 in 5 people, or 6.8 million Canadians, will experience a mental illness at some point in their lifetime</b>. This is now well recognized. For all the agencies, institutions, professionals, families, children, and youth who have given their time, expertise, experiences, and hope we thank you.</p>
+  </div>
+
+  <a name="assets"></a>
+  <h2 class="f2 lh-title mt6 dib">Campaign Assets</h2>
+
+    <h3 class="f3 lh-title mt4">Your Stories</h3>
+
+    <p class="f4-m f3-l lh-copy measure-wide">One in five people will experience a mental illness in their lifetime. The other four will know someone- a family member, friend, or co-worker who has been affected. We all have stories to tell. Below are stories from people who have been impacted by by the stigma of mental illness.</p>
+
+    <ul class="list pa0">
+
+      <% sitemap.resources.select { |r| r.path.start_with?('your-stories') }.each do |story| %>
+
+        <li class="dib"><%= link_to story.data.title, story.path, class: "fl ma0 pa2 v-top dib mr2 mb2 bg-black-10 no-underline f4 grow" %></li>
+
+      <% end %>
+
+    </ul>
+
+    <h3 class="f3 lh-title mt4">Postcard Campaign</h3>
+
+    <p class="f4-m f3-l lh-copy measure-wide">These anonymously submitted postcards share stories of how how mental illness, and the stigma associated with it, has affected individuals throughout the Niagara region. Whether you are the mother, brother, aunt or husband of someone with a mental illness, or someone who has been personally affected, you all have a story. This is your voice.</p>
+
+    <div>
+    <% sitemap.resources.select { |r| r.path.start_with?('images/postcards') }.each do |image| %>
+
+      <% link_to image_path(image.path), :class => "ma0 v-top dib mr2 mb2 pv1" do %>
+        <%= image_tag image.url, resize_to: '175x400', class: 'grow db no-underline black shadow-4' %>
+      <% end %>
+
+    <% end %>
+    </div>
+
+  <a name="supporters"></a>
+  <h2 class="f2 lh-title mt6 dib">Supporters</h2>
+
+  <p class="f4-m f3-l lh-copy measure-wide">The Anti-Stigma Planning Committee was made up of individuals representing a wide cross-section of Niagara. We would like to acknowledge the support of the following organizations and individuals:</p>
+
+  <ul class="list pl0 f4">
+    <%= supporter_list("Ellis Katsof", "Pathstone Mental Health") %>
+    <%= supporter_list("Hilary Abbey", "DSBN, Principal") %>
+    <%= supporter_list("Arlene Arch", "Thorold City Council") %>
+    <%= supporter_list("Yolanda Baldasara", "NCDSB") %>
+    <%= supporter_list("Mary Barzyk", "CMHA Niagara") %>
+    <%= supporter_list("Cheryl Bechard Howe", "DSBN, Social Worker") %>
+    <%= supporter_list("Laura Bruno", "CMHA, Niagara") %>
+    <%= supporter_list("Sarah Cannon", "Pathstone Parent Advisory Committee") %>
+    <%= supporter_list("Laurie Columbus", "Niagara Region Public Health") %>
+    <%= supporter_list("Jill Dennison", "Schizophrenia Society of Ontario") %>
+    <%= supporter_list("Barb Eade", "DSBN") %>
+    <%= supporter_list("Steven Gallagher", "Niagara Falls Review") %>
+    <%= supporter_list("Laurie Garner", "Community Member") %>
+    <%= supporter_list("Laura Guirguis", "NCDSB, St. Paul High School") %>
+    <%= supporter_list("Kevin Harding", "Corporate Communications, PR Consultant") %>
+    <%= supporter_list("Kyle Horvath", "Brock University, Student") %>
+    <%= supporter_list("Mary-Therese Keenan", "NCDSB, Blessed Trinity") %>
+    <%= supporter_list("Brittany Keskinen", "Community Member") %>
+    <%= supporter_list("Diane Kon", "Pathstone Foundation") %>
+    <%= supporter_list("Nadia Laselva", "NCDSB, Monsignor Clancy") %>
+    <%= supporter_list("Brittany Marshall", "Brock University, Student") %>
+    <%= supporter_list("Susan Misfud", "Brock University, Staff") %>
+    <%= supporter_list("Heidi Mori", "Community Member") %>
+    <%= supporter_list("Ashleigh Myers", "Astral Radio Niagara") %>
+    <%= supporter_list("Katherine Perry", "NCDSB, Blessed Trinity") %>
+    <%= supporter_list("Dave Pierce", "DSBN, Social Worker") %>
+    <%= supporter_list("Diane Pizale", "Monsignor Clancy") %>
+    <%= supporter_list("Jessica Rathwell", "Pathstone Mental Health") %>
+    <%= supporter_list("Karen Robson", "CMHA, Niagara") %>
+    <%= supporter_list("Heather Scott", "NHS, Manager Mental Health") %>
+    <%= supporter_list("Kealan Sisler", "JMR Logics / Upper Rapids") %>
+    <%= supporter_list("Susan Tromanhauser", "NCDSB, St. Patrick Elementary School") %>
+    <%= supporter_list("Joann Tweney", "Rockpoint Productions") %>
+    <%= supporter_list("Stephanie Vale", "Pride Niagara") %>
+    <%= supporter_list("Nadine Wallace", "Niagara Regional Police Service") %>
+    <%= supporter_list("Laurie Walsh", "Astral Media Niagara") %>
+    <%= supporter_list("Adam White", "JMR Logics / Upper Rapids") %>
+    <%= supporter_list("Julie Wiley-Pol", "Pathstone Parent Advisory Committee") %>
+    <%= supporter_list("Karen Wright", "DSBN, Orchard Park") %>
+    <%= supporter_list("Carrie Zeffiro", "Pathstone Foundation") %>
+  </ul>
+
+</article>
+
+
