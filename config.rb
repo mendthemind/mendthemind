@@ -36,8 +36,11 @@ set :markdown, :smartypants => true
 
 activate :middleman_simple_thumbnailer
 
+ignore 'README.md'
+
 # Build-specific configuration
 configure :build do
+
   # Minify CSS on build
   activate :minify_css
 
@@ -46,5 +49,6 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
+
 end
 
