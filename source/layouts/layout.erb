@@ -13,10 +13,91 @@
 
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.3/css/tachyons.min.css"/>
 
-    <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
     <%= favicon_tag 'images/favicon.ico' %>
 
+    <style>
+      a {
+        color: #3E3385;
+      }
+
+      @keyframes carouselFadeInOut {
+        0% {
+          opacity: 1;
+        }
+
+        17% {
+          opacity: 1;
+        }
+
+        25% {
+          opacity: 0;
+        }
+
+        92% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      #carousel {
+        text-align: center;
+        position: relative;
+        max-width: 1010px;
+        margin: 0px auto;
+        width: 100%;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        display: inline-block;
+      }
+
+      #carousel img.slide {
+        -webkit-animation-name: carouselFadeInOut;
+        -webkit-animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-duration: 16s;
+        -moz-animation-name: carouselFadeInOut;
+        -moz-animation-timing-function: ease-in-out;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-duration: 16s;
+        -o-animation-name: carouselFadeInOut;
+        -o-animation-timing-function: ease-in-out;
+        -o-animation-iteration-count: infinite;
+        -o-animation-duration: 16s;
+        animation-name: carouselFadeInOut;
+        animation-timing-funbction: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 16s;
+      }
+
+      #carousel img.slide {
+        position: absolute;
+        left: 0;
+      }
+
+      #carousel img.slide:nth-of-type(1) {
+        animation-delay: 12s;
+      }
+
+      #carousel img.slide:nth-of-type(2) {
+        animation-delay: 8s;
+      }
+
+      #carousel img.slide:nth-of-type(3) {
+        animation-delay: 4s;
+      }
+
+      #carousel img.slide:nth-of-type(4) {
+        animation-delay: 0;
+      }
+
+      .mtm-width {
+        max-width: 1200px;
+        margin: 0px auto;
+      }
+    </style>
   </head>
 
   <body class="<%= page_classes %> bg-white black-70 sans-serif">
