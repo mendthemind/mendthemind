@@ -30,13 +30,15 @@ configure :development do
 end
 
 activate :directory_indexes
+page '/404.html', directory_index: false
+page 'README.md', directory_index: false
 
 set :markdown_engine, :redcarpet
 set :markdown, :smartypants => true
 
 activate :middleman_simple_thumbnailer
 
-ignore 'README.md'
+#ignore 'README.md'
 
 # Build-specific configuration
 configure :build do
